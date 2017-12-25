@@ -45,8 +45,8 @@ public int[] twoSum2(int[] nums, int target) {
 
 ----------
 1. 结束方法的执行  
-   a.return语句  
-   b.throw Exception （抛出异常没有catch的情况）
+   a>return语句  
+   b>throw Exception （抛出异常没有catch的情况）
 2. for循环嵌套解决多维遍历问题
 3. hash表的特点：  
    &emsp;大大降低数据的存储和查找消耗的时间，几乎可以看成是常数时间；而代价是消耗比较多的内存。所以在可利用内存比较多的情况下，用空间换时间的做法是值得的。另外，编码比较容易也是它的特点之一。 
