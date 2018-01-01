@@ -3,7 +3,8 @@
 例：<pre>Given nums = [2, 7, 11, 15], target = 9,
 Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].</pre>
-答案一：<pre> //for循环嵌套 
+答案一：<pre> 
+    //for循环嵌套 
     public int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
             for (int j = i + 1; j < nums.length; j++) {
@@ -15,7 +16,8 @@ return [0, 1].</pre>
         throw new RuntimeException("no result");
     }
 </pre> 
-答案二：<pre>  //使用基于hash表的map，提高检索效率
+答案二：<pre>  
+      //使用基于hash表的map，提高检索效率
 	  //先全部放到map，然后再遍历
       public int[] twoSum2(int[] nums, int target) {
         Map<Integer,Integer> map=new HashMap<>();
@@ -29,8 +31,10 @@ return [0, 1].</pre>
             }
         }
         throw new RuntimeException("no result");
-    }</pre>
-答案三：<pre>  //使用基于hash表的map，put的时候检索map中是否已存在
+    }
+</pre>
+答案三：<pre>  
+    //使用基于hash表的map，put的时候检索map中是否已存在
     public int[] twoSum3(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
@@ -41,7 +45,8 @@ return [0, 1].</pre>
             map.put(nums[i], i);
         }
         throw new RuntimeException("no result");
-}</pre>
+    }
+</pre>
 
 ----------
 Java基础技术点：  
