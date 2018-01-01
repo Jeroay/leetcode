@@ -6,7 +6,7 @@ Explanation: 142 + 465 = 607.</pre>
 - 解法要点：  
 1.根据加法的进位原理，写一个逆序加法逻辑  
 2.注意两个链表长度不一致的问题，还有最后一位的进位问题   
-答案：<pre>
+- 答案：<pre>
      public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 		if(l1==null&&l2==null) {
 			return null;
