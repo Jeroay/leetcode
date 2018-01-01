@@ -17,7 +17,7 @@ return [0, 1].</pre>
 </pre> 
 答案二：<pre>  //使用基于hash表的map，提高检索效率
 	  //先全部放到map，然后再遍历
-public int[] twoSum2(int[] nums, int target) {
+      public int[] twoSum2(int[] nums, int target) {
         Map<Integer,Integer> map=new HashMap<>();
         for(int i=0;i<nums.length;i++){
             map.put(nums[i],i);
@@ -30,6 +30,7 @@ public int[] twoSum2(int[] nums, int target) {
         }
         throw new RuntimeException("no result");
     }</pre>
+
 答案三：<pre>  //使用基于hash表的map，put的时候检索map中是否已存在
     public int[] twoSum3(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
@@ -41,7 +42,7 @@ public int[] twoSum2(int[] nums, int target) {
             map.put(nums[i], i);
         }
         throw new RuntimeException("no result");
-}</pre>	
+}</pre>
 
 ----------
 Java基础技术点：  
