@@ -5,6 +5,7 @@ LeetCode for java
 [3. Longest Substring Without Repeating Characters](/src/main/java/cn/leetcode/LongestSubstringWithoutRepeatingCharacters.java)  
 [7. Reverse Integer](/src/main/java/cn/leetcode/ReverseInteger.java)  
 [13. Roman to Integer](/src/main/java/cn/leetcode/RomanToInteger.java)   
+[20. Valid Parentheses](/src/main/java/cn/leetcode/ValidParentheses.java)   
 [35. Search Insert Position](/src/main/java/cn/leetcode/SearchInsertPosition.java)   
 [38. Count and Say](/src/main/java/cn/leetcode/CountAndSay.java)  
 [69. Sqrt(x)](/src/main/java/cn/leetcode/Sqrtx.java)  
