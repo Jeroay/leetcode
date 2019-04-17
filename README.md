@@ -6,6 +6,7 @@ LeetCode for java
 [7. Reverse Integer](/src/main/java/cn/leetcode/ReverseInteger.java)  
 [13. Roman to Integer](/src/main/java/cn/leetcode/RomanToInteger.java)   
 [20. Valid Parentheses](/src/main/java/cn/leetcode/ValidParentheses.java)   
+[26. Remove Duplicates from Sorted Array](/src/main/java/cn/leetcode/RemoveDuplicatesFromSortedArray.java)   
 [27. Remove Element](/src/main/java/cn/leetcode/RemoveElement.java)   
 [35. Search Insert Position](/src/main/java/cn/leetcode/SearchInsertPosition.java)   
 [38. Count and Say](/src/main/java/cn/leetcode/CountAndSay.java)  
