@@ -4,6 +4,7 @@ LeetCode for java
 [2. Add Two Numbers](/src/main/java/cn/leetcode/AddTwoNumbers.java)  
 [3. Longest Substring Without Repeating Characters](/src/main/java/cn/leetcode/LongestSubstringWithoutRepeatingCharacters.java)  
 [4. Median of Two Sorted Arrays](/src/main/java/cn/leetcode/MedianOfTwoSortedArrays.java)  
+[5. Longest Palindromic Substring](/src/main/java/cn/leetcode/LongestPalindromicSubstring.java)  
 [7. Reverse Integer](/src/main/java/cn/leetcode/ReverseInteger.java)  
 [13. Roman to Integer](/src/main/java/cn/leetcode/RomanToInteger.java)   
 [14. Longest Common Prefix](/src/main/java/cn/leetcode/LongestCommonPrefix.java)   
